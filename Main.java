@@ -25,16 +25,16 @@ public class Main {
                         inputArray.add(number);
                 }
 
-                if (number > 7)
+              /*  if (number > 7)
                     do {
                         number -=  7;
                     }
-                    while (number > 7);
+                    while (number > 7); */
 
             //Problem:  Unos 15, 22, 29..itd ne vraca broja dana u tjednu
             //Rijesenje: 'number > 7' a ne 'number > 8'
 
-                switch (number) {
+                switch (number%7) {
                     case 1:
                         System.out.println("Monday");
                         break;
